@@ -13,7 +13,7 @@ const AllCard = () => {
     <div className=''>
      <Swiper
         slidesPerView={4}
-        spaceBetween={50}
+        spaceBetween={10}
         loop={true}
         pagination={{
           clickable: true,
