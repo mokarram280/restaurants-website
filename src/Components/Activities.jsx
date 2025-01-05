@@ -4,7 +4,7 @@ import { CafeCard } from './sheard/chain';
 
 const Activities = () => {
   return (
-    <section className='pt-10 lg:pt-20 pb-16 px-6 lg:px-12'>
+    <section className='pt-10 lg:pt-20 pb-6 lg:pb-16 px-6 lg:px-12'>
         <h2 className='text-xl xl:text-[32px] font-extrabold text-center lg:text-start'>Recents activities</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-3'> 
                 {CafeCard.map((items,i)=>(
