@@ -1,4 +1,5 @@
 import './App.css';
+import Activities from './Components/Activities';
 import CardSlider from './Components/CardSlider';
 import Company from './Components/Company';
 import CoolRestaurants from './Components/CoolRestaurants';
@@ -14,6 +15,7 @@ function App() {
       <CardSlider />
       <LatestTrends />
       <CoolRestaurants />
+      <Activities />
     </>
   );
 };

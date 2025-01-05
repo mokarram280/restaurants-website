@@ -8,7 +8,7 @@ const LatestTrends = () => {
             <h2 className='text-3xl font-extrabold lg:ms-4 text-center lg:text-start'>The latest trends</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center'>
                 {chain.map((items,i)=>(
-                    <div key={i} className='w-[285px] :h-[363px] bg-background rounded-xl mt-7'>
+                    <div key={i} className='w-[285px] h-[363px] bg-background rounded-xl mt-7'>
                     <img src={items.imgs} alt="" />
                 <div className='py-2 px-4'>
                 <div className='space-y-1'>

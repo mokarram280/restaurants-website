@@ -96,3 +96,48 @@ export const chain = [
         reviews:'(876 reviews)'
     }
 ];
+
+export const CafeCard = [
+    {
+        names:'Leslie sakho',
+        address:'Canada, toronto',
+        iconImg:'star5.svg',
+        date:'09/11/2023',
+        text:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        text2:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        cafeImg:[
+            {img:'p1.png'},
+            {img:'p2.png'},
+            {img:'p3.png'},
+        ],
+        discover:'Discover',
+    },
+    {
+        names:'Chris macari',
+        address:'Singapour',
+        iconImg:'star5.svg',
+        date:'14/09/2023',
+        text:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        text2:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        cafeImg:[
+            {img:'p4.png'},
+            {img:'p5.png'},
+            {img:'p6.png'},
+        ],
+        discover:'Discover',
+    },
+    {
+        names:'Jojo alba',
+        address:'Kuala lumpur',
+        iconImg:'star5.svg',
+        date:'28/09/2023',
+        text:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        text2:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        cafeImg:[
+            {img:'p7.png'},
+            {img:'p8.png'},
+            {img:'p9.png'},
+        ],
+        discover:'Discover',
+    }
+];
