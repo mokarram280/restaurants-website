@@ -162,3 +162,61 @@ export const data = [
     },
 ];
 
+export const BestRestaurants = [
+    {
+        mainImg:'restu1.png',
+        names:'The snug',
+        desc:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        icon:'star4.75.svg',
+        rating:'4.5',
+        review:'(654 reviews)'
+    },
+    {
+        mainImg:'restu2.png',
+        names:'Bottega',
+        desc:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        icon:'star5.svg',
+        rating:'5.0',
+        review:'(1654 reviews)'
+    },
+    {
+        mainImg:'restu3.png',
+        names:'Little Shucker',
+        desc:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        icon:'star3.5.svg',
+        rating:'3.0',
+        review:'(553 reviews)'
+    },
+    {
+        mainImg:'restu4.png',
+        names:'Lokma',
+        desc:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        icon:'star4.75.svg',
+        rating:'4.5',
+        review:'(654 reviews)'
+    },
+    {
+        mainImg:'restu5.png',
+        names:'Starbelly',
+        desc:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        icon:'star4.5.svg',
+        rating:'4.5',
+        review:'(654 reviews)'
+    },
+    {
+        mainImg:'restu6.png',
+        names:'The melt',
+        desc:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        icon:'star4.5.svg',
+        rating:'4.5',
+        review:'(654 reviews)'
+    },
+    {
+        mainImg:'restu7.png',
+        names:'Arabia Nights',
+        desc:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        icon:'star4.5.svg',
+        rating:'4.5',
+        review:'(654 reviews)'
+    }
+];

@@ -43,9 +43,7 @@ const DoubleSearchBar = () => {
             </a>
           ))}
         </div>
-    </div>
-
-        
+      </div>   
     </div>
   );
 };

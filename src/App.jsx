@@ -1,21 +1,20 @@
 import './App.css';
-import AllRestaurants from './Components/AllRestaurants';
-import Footer from './Components/Footer';
-import NavbarArea from './Components/NavbarArea';
+import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom';
 import HomePage from './HomePage';
-import { Route, BrowserRouter as Router, Routes} from 'react-router-dom';
+import AllRestaurants from './Components/AllRestaurants';
+
+
 function App() {
 
   return (
     <>
-    <Router>
-    <NavbarArea />
-    <Routes>
-      <Route path='/' element={<HomePage />} />
-      <Route path='/allrestaurants' element={<AllRestaurants />} />
-    </Routes>
-    <Footer />
-    </Router>
+    <BrowserRouter >
+       <Routes>
+        <Route path='/homepage' element={<HomePage />} />
+        <Route path='/allrestaurants' element={<AllRestaurants />} />
+       </Routes>
+    </BrowserRouter>
+    <Outlet />
     </>
   );
 };
