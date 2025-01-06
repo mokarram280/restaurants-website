@@ -5,6 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { GoClockFill } from "react-icons/go";
 import Magnificent from './sheard/Magnificent';
 import MoreInfo from './sheard/MoreInfo';
+import Ratings from './sheard/Ratings';
 
 const BellaItalia = () => {
   return (
@@ -40,6 +41,9 @@ const BellaItalia = () => {
         </div>
         <div>
             <MoreInfo />
+        </div>
+        <div>
+            <Ratings />
         </div>
     <Footer />
     </>
