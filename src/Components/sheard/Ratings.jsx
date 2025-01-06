@@ -16,52 +16,52 @@ const Ratings = () => {
             <div className='w-[80%]'>
             <div>
                 <Slider
-                startContent='5_stars '
-                defaultValue={0.4}
+                startContent='5_stars'
+                defaultValue={1}
                 maxValue={1}
                 minValue={0}
                 step={0.01}
-                size='sm'
+                hideThumb={true}
                 />
             </div>
             <div>
                 <Slider
-                startContent='0_stars '
-                defaultValue={0.4}
+                startContent='0_stars'
+                defaultValue={0.7}
                 maxValue={1}
                 minValue={0}
                 step={0.01}
-                size='sm'
+                hideThumb={true}
                 />
             </div>
             <div>
                 <Slider
-                startContent='0_stars '
-                defaultValue={0.4}
+                startContent='0_stars'
+                defaultValue={0.5}
                 maxValue={1}
                 minValue={0}
                 step={0.01}
-                size='sm'
+                hideThumb={true}
                 />
             </div>
             <div>
                 <Slider
-                startContent='0_stars '
-                defaultValue={0.4}
+                startContent='0_stars'
+                defaultValue={0.3}
                 maxValue={1}
                 minValue={0}
                 step={0.01}
-                size='sm'
+                hideThumb={true}
                 />
             </div>
             <div>
                 <Slider
-                startContent='0_stars '
-                defaultValue={0.4}
+                startContent='0_stars'
+                defaultValue={0.2}
                 maxValue={1}
                 minValue={0}
                 step={0.01}
-                size='sm'
+                hideThumb={true}
                 />
             </div>
             </div>

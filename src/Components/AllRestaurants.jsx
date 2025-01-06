@@ -28,7 +28,7 @@ const AllRestaurants = () => {
                     </Dropdown>
                     
                 </div>
-                    <div className='pt-12 '>
+                    <div className='pt-12'>
                     {BestRestaurants.map((items,i)=>(
                         <div key={i} className='flex gap-4 p-4 border-b border-b-gray-200'>
                         <img src={items.mainImg} alt="" />

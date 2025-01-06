@@ -6,13 +6,15 @@ import { GoClockFill } from "react-icons/go";
 import Magnificent from './sheard/Magnificent';
 import MoreInfo from './sheard/MoreInfo';
 import Ratings from './sheard/Ratings';
+import Filter from './sheard/Filter';
+import { Link } from 'react-router-dom';
 
 const BellaItalia = () => {
   return (
     <>
     <NavbarArea />
         <div>
-            <h3 className='text-md font-bold my-5 ms-[100px]'>Home / BellaItalia</h3>
+            <h3 className='text-md font-bold my-5 ms-[100px]'><Link to='/homepage'><button className='hover:text-accent'>Home</button></Link> / BellaItalia</h3>
             <div className='bg-[url(/bg.png)] bg-no-repeat bg-cover relative'>
               <div className='ps-24 pt-16 pb-28'>
               <h2 className='text-[52px] font-bold text-white'>Bella italia</h2>
@@ -44,6 +46,9 @@ const BellaItalia = () => {
         </div>
         <div>
             <Ratings />
+        </div>
+        <div>
+          <Filter />
         </div>
     <Footer />
     </>

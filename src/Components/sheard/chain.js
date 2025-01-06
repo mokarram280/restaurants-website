@@ -228,3 +228,76 @@ export const ImageGallery = [
     {gallery:'photo4.png'},
     {gallery:'photo5.png'},
 ];
+
+export const FilterCard = [
+    {
+        person:'Wei Jie',
+        locat:'Singapore, Little india',
+        staricon:'star5.svg',
+        dates:'29/11/2023',
+        txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
+    },
+    {
+        person:'Mei Ling',
+        locat:'Singapore, Orchad boulevard',
+        staricon:'star5.svg',
+        dates:'09/05/2023',
+        txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
+    },
+    {
+        person:'Wei Xiong',
+        locat:'Singapore, Takashimaya',
+        staricon:'star5.svg',
+        dates:'01/05/2023',
+        txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
+    },
+    {
+        person:'Ming Wei',
+        locat:'Singapore, Little india',
+        staricon:'star5.svg',
+        dates:'31/04/2023',
+        txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
+    },
+    {
+        person:'Wei Jie',
+        locat:'Singapore, Little india',
+        staricon:'star5.svg',
+        dates:'09/05/2023',
+        txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
+    },
+    {
+        person:'Xin Yi',
+        locat:'Singapore, Zen rooms',
+        staricon:'star5.svg',
+        dates:'30/04/2023',
+        txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
+    },
+    {
+        person:'Zhi Hao',
+        locat:'Singapore, Boon Keng',
+        staricon:'star5.svg',
+        dates:'27/03/2023',
+        txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
+    },
+    {
+        person:'Li Hua',
+        locat:'Singapore, DLLM loklok',
+        staricon:'star5.svg',
+        dates:'24/03/2023',
+        txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
+    },
+    {
+        person:'Si Ying',
+        locat:'Singapore, Bedemeer',
+        staricon:'star5.svg',
+        dates:'11/03/2023',
+        txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
+    },
+    {
+        person:'Wei Ting',
+        locat:'Singapore, Toa Payoh',
+        staricon:'star5.svg',
+        dates:'28/02/2023',
+        txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
+    }
+];
