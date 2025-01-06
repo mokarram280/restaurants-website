@@ -141,3 +141,24 @@ export const CafeCard = [
         discover:'Discover',
     }
 ];
+
+export const data = [
+    {
+        icons:'Group 22.svg',
+        title:'Kakune restau,',
+        locations:'paris...'
+    },
+    {
+        icons:'Group 22.svg',
+        title:'Kakunexy delux, rome...'
+    },
+    {
+        icons:'Group 22.svg',
+        title:'Kakune, new york...'
+    },
+    {
+        icons:'Group 22.svg',
+        title:'Kikune, Dakar plateau...'
+    },
+];
+

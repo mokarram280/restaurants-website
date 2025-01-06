@@ -1,25 +1,39 @@
 import React from 'react';
 import Carousels from './Carousels';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 
 const AllCard = () => {
   return (
     
-    <div className=''>
+    <div>
      <Swiper
-        slidesPerView={4}
+        slidesPerView={1}
         spaceBetween={10}
         loop={true}
-        pagination={{
-          clickable: true,
+        breakpoints={{
+          412: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+          1330: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Navigation]}
         className='mySwiper'
       >
         <SwiperSlide>

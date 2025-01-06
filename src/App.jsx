@@ -1,23 +1,21 @@
 import './App.css';
-import Activities from './Components/Activities';
-import CardSlider from './Components/CardSlider';
-import Company from './Components/Company';
-import CoolRestaurants from './Components/CoolRestaurants';
+import AllRestaurants from './Components/AllRestaurants';
 import Footer from './Components/Footer';
-import LatestTrends from './Components/LatestTrends';
 import NavbarArea from './Components/NavbarArea';
-
+import HomePage from './HomePage';
+import { Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 function App() {
 
   return (
     <>
-      <NavbarArea />
-      <Company />
-      <CardSlider />
-      <LatestTrends />
-      <CoolRestaurants />
-      <Activities />
-      <Footer />
+    <Router>
+    <NavbarArea />
+    <Routes>
+      <Route path='/' element={<HomePage />} />
+      <Route path='/allrestaurants' element={<AllRestaurants />} />
+    </Routes>
+    <Footer />
+    </Router>
     </>
   );
 };

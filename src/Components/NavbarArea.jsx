@@ -7,7 +7,7 @@ const NavbarArea = () => {
     <nav className='pt-6 pb-3 border-b'>
      <div className='flex flex-col xl:flex-row items-center justify-between gap-3 mx-12'>
      <div>
-        <img src="/logo.png" alt="" className='' />
+        <img src="/logo.png" alt="" />
       </div>
 
     <div>
