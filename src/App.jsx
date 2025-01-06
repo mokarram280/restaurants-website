@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom';
 import HomePage from './HomePage';
 import AllRestaurants from './Components/AllRestaurants';
+import BellaItalia from './Components/BellaItalia';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
        <Routes>
         <Route path='/homepage' element={<HomePage />} />
         <Route path='/allrestaurants' element={<AllRestaurants />} />
+        <Route path='/bellaitalia' element={<BellaItalia />} />
        </Routes>
     </BrowserRouter>
     <Outlet />

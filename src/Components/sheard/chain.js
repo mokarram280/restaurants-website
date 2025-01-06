@@ -220,3 +220,11 @@ export const BestRestaurants = [
         review:'(654 reviews)'
     }
 ];
+
+export const ImageGallery = [
+    {gallery:'photo1.png'},
+    {gallery:'photo2.png'},
+    {gallery:'photo3.png'},
+    {gallery:'photo4.png'},
+    {gallery:'photo5.png'},
+];
