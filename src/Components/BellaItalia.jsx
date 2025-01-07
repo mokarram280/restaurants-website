@@ -16,7 +16,8 @@ const BellaItalia = () => {
     <NavbarArea />
         <div>
             <h3 className='text-md font-bold my-5 ms-[100px]'><Link to='/homepage'><button className='hover:text-accent'>Home</button></Link> / BellaItalia</h3>
-            <div className='bg-[url(/bg.png)] bg-no-repeat bg-cover relative'>
+            <div className='bg-bannerImg bg-no-repeat bg-cover relative'>
+            <div className='bg-gradient-to-r from-[#101010]/85 w-[50%]'>
               <div className='ps-24 pt-16 pb-28'>
               <h2 className='text-[52px] font-bold text-white'>Bella italia</h2>
               <div className='flex items-center gap-3'>
@@ -37,6 +38,7 @@ const BellaItalia = () => {
               </div>
               </div>
               <div className='absolute left-1/2 -bottom-20'><img src="/tag.svg" alt="" /></div>
+            </div>
             </div>
         </div>
         <div>
