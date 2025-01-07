@@ -15,7 +15,7 @@ const Filter = () => {
             </div>
                 <div className='mt-11 space-y-5'>
                     {FilterCard.map((items,i)=>(
-                        <div key={i} className='flex gap-2 md:w-[1055px] bg-background rounded-[20px] p-5'>
+                        <div key={i} className='flex gap-2 xl:w-[1055px] bg-background rounded-[20px] p-5'>
                           <p className='w-6 md:w-14 h-6 md:h-14 bg-white rounded-full flex items-center justify-center'><GoPerson md:size={20} /></p>
                         <div>
                           <h3 className='text-lg md:text-[21px] font-bold'>{items.person}</h3>
@@ -28,6 +28,9 @@ const Filter = () => {
                       </div>
                     </div>
                     ))}
+                </div>
+                <div className='flex justify-center'>
+                <button className='w-[244px] h-12 bg-accent rounded-full text-white mt-20'>Show more reviews</button>
                 </div>
             </div>
     </section>

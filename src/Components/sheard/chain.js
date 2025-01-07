@@ -301,3 +301,30 @@ export const FilterCard = [
         txt:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.'
     }
 ];
+
+export const DiscoverCard = [
+    {
+        disimg:'card10.png',
+        disname:'The melt',
+        distext:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        disicon:'star3.25.svg',
+        disrating:'3.5 ',
+        disreview:'(334 reviews)'
+    },
+    {
+        disimg:'card11.png',
+        disname:'Lokma',
+        distext:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        disicon:'star5.svg',
+        disrating:'5.0',
+        disreview:'(253 reviews)'
+    },
+    {
+        disimg:'card12.png',
+        disname:'The snug',
+        distext:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+        disicon:'star4.75.svg',
+        disrating:'4.5',
+        disreview:'(654 reviews)'
+    }
+];

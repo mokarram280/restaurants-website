@@ -8,6 +8,7 @@ import MoreInfo from './sheard/MoreInfo';
 import Ratings from './sheard/Ratings';
 import Filter from './sheard/Filter';
 import { Link } from 'react-router-dom';
+import Discover from './sheard/Discover';
 
 const BellaItalia = () => {
   return (
@@ -49,6 +50,9 @@ const BellaItalia = () => {
         </div>
         <div>
           <Filter />
+        </div>
+        <div>
+          <Discover />
         </div>
     <Footer />
     </>
