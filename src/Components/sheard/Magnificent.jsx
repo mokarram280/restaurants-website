@@ -1,15 +1,7 @@
 import React from 'react';
 import { ImageGallery } from './chain';
 import { LuGrip } from "react-icons/lu";
-import {
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-  Button,
-  useDisclosure,
-} from "@nextui-org/react";
+import { Modal, ModalContent, ModalBody, Button, useDisclosure } from "@nextui-org/react";
 import ImgCarousel from '../ImgCarousel';
 
 const Magnificent = () => {
