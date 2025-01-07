@@ -15,18 +15,18 @@ const BellaItalia = () => {
     <>
     <NavbarArea />
         <div>
-            <h3 className='text-md font-bold my-5 ms-[100px]'><Link to='/homepage'><button className='hover:text-accent'>Home</button></Link> / BellaItalia</h3>
+            <h3 className='text-md font-bold my-5 text-center md:text-start xl:ms-[100px]'><Link to='/homepage'><button className='hover:text-accent'>Home</button></Link> / BellaItalia</h3>
             <div className='bg-bannerImg bg-no-repeat bg-cover relative'>
-            <div className='bg-gradient-to-r from-[#101010]/85 w-[50%]'>
-              <div className='ps-24 pt-16 pb-28'>
-              <h2 className='text-[52px] font-bold text-white'>Bella italia</h2>
-              <div className='flex items-center gap-3'>
+            <div className='bg-gradient-to-r from-[#101010]/85 lg:w-[50%]'>
+              <div className='lg:ps-24 pt-6 lg:pt-16 pb-16 lg:pb-28 mx-8 '>
+              <h2 className='text-4xl lg:text-[52px] font-bold text-white'>Bella italia</h2>
+              <div className='flex items-center gap-3 mt-4 lg:mt-6'>
                 <img src="star5.svg" alt="" />
                 <h5 className='text-white'><span className='font-bold'>5.0</span> (834 reviews)</h5>
                 </div>
-                <p className='text-lg text-white mt-7 max-w-[528px]'>The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.
+                <p className='text-lg text-white mt-4 lg:mt-7 lg:max-w-[528px]'>The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.
                 The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.</p>
-              <div className='mt-16 space-y-9 text-lg text-white'>
+              <div className='mt-6 lg:mt-16 space-y-4 lg:space-y-9 text-lg text-white'>
                 <div className='flex items-center gap-2'>
                     <FaLocationDot size={20} />
                     <p>Singapour, Bishan-Ang Mo Kio Park </p>
@@ -37,25 +37,17 @@ const BellaItalia = () => {
                 </div>
               </div>
               </div>
-              <div className='absolute left-1/2 -bottom-20'><img src="/tag.svg" alt="" /></div>
+              <div className='absolute left-1/3 lg:left-1/2 -bottom-20'><img src="/tag.svg" alt="" className='w-28 lg:w-full' /></div>
             </div>
             </div>
         </div>
         <div>
             <Magnificent />
-        </div>
-        <div>
             <MoreInfo />
-        </div>
-        <div>
             <Ratings />
-        </div>
-        <div>
           <Filter />
-        </div>
-        <div>
           <Discover />
-        </div>
+          </div>
     <Footer />
     </>
   );

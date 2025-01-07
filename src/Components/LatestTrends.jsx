@@ -6,14 +6,14 @@ const LatestTrends = () => {
   return (
     <section className='mx-8'>
         <div className='pt-24 pb-14'>
-            <h2 className='text-3xl font-extrabold lg:ms-4 text-center lg:text-start'>The latest trends</h2>
+           <Link to='/bellaitalia'><button aria-label='close Menu' className='text-3xl font-extrabold lg:ms-4 text-center lg:text-start'>The latest trends</button></Link>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center'>
                 {chain.map((items,i)=>(
-                   <Link to='/bellaitalia'><div key={i} className='w-[285px] h-[363px] bg-background rounded-xl mt-7'>
+                   <div key={i} className='w-[285px] h-[363px] bg-background rounded-xl mt-7'>
                     <img src={items.imgs} alt="" />
                 <div className='py-2 px-4'>
                 <div className='space-y-1'>
-                    <h3 className='text-xl font-semibold'>{items.locations}</h3>
+                <h3 className='text-xl font-semibold'>{items.locations}</h3>
                     <p className='text-sm text-foreground max-w-[234px]'>{items.description}</p>
                 </div>
                 <div className='flex items-center mt-6 gap-2'>
@@ -21,7 +21,7 @@ const LatestTrends = () => {
                     <p className='text-sm text-foreground'><span className='font-bold text-black'>{items.ratings}</span> {items.reviews}</p>
                 </div> 
               </div>  
-            </div></Link> 
+            </div>
                 ))}
        </div>
      </div>

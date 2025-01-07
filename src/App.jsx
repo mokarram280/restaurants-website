@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom';
 import HomePage from './HomePage';
-import AllRestaurants from './Components/AllRestaurants';
 import BellaItalia from './Components/BellaItalia';
+import AllRestaurants from '../../src/Components/AllRestaurants';
 
 
 function App() {

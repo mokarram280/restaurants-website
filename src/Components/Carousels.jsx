@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Carousels = (props) => {
+const Carousels = (props,i) => {
   return (
     <div>
-        <div className='w-[285px] h-[373px] bg-background rounded-xl mt-7'>
+        <div key={i} className='w-[285px] h-[373px] bg-background rounded-xl mt-7'>
                 <img src={props.imgs} alt="" />
             <div className='py-2 px-4'>
             <div className='space-y-1'>

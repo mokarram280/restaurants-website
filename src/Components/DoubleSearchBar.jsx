@@ -16,9 +16,6 @@ const DoubleSearchBar = () => {
     }
     useEffect(()=>{
       if (search !== ""){
-        // fetch(`http://api.tvmaze.com/search/shows?q=${search}`)
-        // .then((res)=> res.json())
-        // .then((data)=> setSearchData(data));
         const newFilterData = data.filter(book =>{
           return book.title.includes(search)
         })
