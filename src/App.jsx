@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom';
 import HomePage from './HomePage';
 import BellaItalia from './Components/BellaItalia';
-import AllRestaurants from '../../src/Components/AllRestaurants';
+import AllRestaurants from './Components/AllRestaurants';
 
 
 function App() {
