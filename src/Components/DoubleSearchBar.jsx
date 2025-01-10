@@ -23,7 +23,7 @@ const DoubleSearchBar = () => {
       }
     },[search])
   return (
-    <div className=''>
+    <div>
         <div className='flex items-center border border-gray-400 w-[425px] lg:w-[625px] h-[30px] lg:h-[51px] rounded-full relative py-4 px-6'>
         <input onChange={handleChange} value={search} type="text" placeholder='restaurant....'  className='lg:ms-2 border-r border-r-gray-400 lg:w-64 focus:outline-0' />
         <input onChange={handleChange} value={search} type="text" placeholder='locations....' className='ms-3 lg:ms-6 focus:outline-0' />

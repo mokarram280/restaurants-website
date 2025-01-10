@@ -1,9 +1,9 @@
 import React from 'react';
 import { FiBarChart } from "react-icons/fi";
 import { BsArrowsVertical } from "react-icons/bs";
-import NavbarArea from '../../../src/Components/NavbarArea';
 import { Link } from 'react-router-dom';
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
+import NavbarArea from './NavbarArea';
 
 const BestRestaurants = [
     {
