@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { CiSearch } from 'react-icons/ci';
 import { IoIosClose } from "react-icons/io";
 import { data } from './sheard/chain';
+import { Link } from 'react-router-dom';
 
 
 const DoubleSearchBar = () => {
@@ -33,13 +34,13 @@ const DoubleSearchBar = () => {
             search === "" ? (<CiSearch />) : (<IoIosClose onClick={handleClose} />)
           }
           </button>
-        <div className='bg-red-200 mt-[150px] '>
+        <Link to='/allrestaurants'><div className='bg-white px-8 shadow-lg mt-[250px]'>
           {searchData.map((data,i)=>(
-            <a href={data.title} key={i} className='text-white'>
+            <a href={data.title} key={i}>
               {data.title}
             </a>
           ))}
-        </div>
+        </div></Link>
       </div>   
     </div>
   );

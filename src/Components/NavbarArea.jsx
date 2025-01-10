@@ -1,7 +1,6 @@
 import React from 'react';
   import { CiGlobe } from "react-icons/ci";
 import DoubleSearchBar from './DoubleSearchBar';
-import { Link } from 'react-router-dom';
 
 const NavbarArea = () => {
   return (
@@ -17,9 +16,7 @@ const NavbarArea = () => {
     </div>
     <div className='flex items-center gap-4'>
     <CiGlobe size={25} />
-    <Link to='/allrestaurants'>
     <button className='bg-black rounded-full text-white w-[233px] h-[47px]'>MyFeedback for business</button>
-    </Link>
     </div>
      </div>
   </nav>

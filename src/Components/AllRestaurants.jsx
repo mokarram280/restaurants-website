@@ -71,7 +71,7 @@ const AllRestaurants = () => {
       <NavbarArea />
         <div className='flex flex-col md:flex-row justify-between gap-12 my-12'>
             <div className='lg:ps-[100px] w-full lg:w-1/2 mx-8 lg:mx-0'>
-                <h3 className='text-md font-bold mt-5'><Link to='/homepage'><button className='hover:text-accent'>Home</button> </Link>/ All restaurants</h3>
+                <h3 className='text-md font-bold mt-5'><Link to='/'><button className='hover:text-accent'>Home</button> </Link>/ All restaurants</h3>
                 <div className='flex items-baseline gap-5'>
                     <h2 className='text-3xl font-extrabold mt-3'>best restaurants in singapore</h2>
                     <Dropdown>

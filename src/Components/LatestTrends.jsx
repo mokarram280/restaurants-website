@@ -6,8 +6,8 @@ const LatestTrends = () => {
   return (
     <section className='mx-8'>
         <div className='pt-24 pb-14'>
-           <Link to='/bellaitalia'><button aria-label='close Menu' className='text-3xl font-extrabold lg:ms-4 text-center lg:text-start'>The latest trends</button></Link>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center'>
+           <button aria-label='close Menu' className='text-3xl font-extrabold lg:ms-4 text-center lg:text-start'>The latest trends</button>
+           <Link to='/bellaitalia'><div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center'>
                 {chain.map((items,i)=>(
                    <div key={i} className='w-[285px] h-[363px] bg-background rounded-xl mt-7'>
                     <img src={items.imgs} alt="" />
@@ -23,7 +23,7 @@ const LatestTrends = () => {
               </div>  
             </div>
                 ))}
-       </div>
+       </div></Link>
      </div>
     </section>
   );
